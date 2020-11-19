@@ -7,7 +7,9 @@ public class LoginAction extends ActionSupport {
     private String password;
 
     public String execute() {
-        return DatabaseController.login(username, password) ? SUCCESS : ERROR;
+        if (DatabaseController.login(username, password)) return SUCCESS;
+        addFieldError("error-field", "Login unsuccessful.");
+        return ERROR;
     }
 
     public String getUsername() {

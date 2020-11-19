@@ -4,6 +4,7 @@
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 
 <struts>
+    <constant name="struts.ui.theme" value="simple"/>
     <constant name="struts.devMode" value="true"/>
 
     <package name="myPackage" extends="struts-default" namespace="/">
@@ -11,7 +12,7 @@
             <result>/index.jsp</result>
         </action>
 
-        <action name = "loginaction" class = "com.ase.assignment.LoginAction" method = "execute">
+        <action name = "login_action" class = "com.ase.assignment.LoginAction" method = "execute">
             <result name = "success">/success.jsp</result>
             <result name = "error">/index.jsp</result>
         </action>
