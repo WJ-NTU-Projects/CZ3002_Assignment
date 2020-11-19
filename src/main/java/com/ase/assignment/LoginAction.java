@@ -7,7 +7,7 @@ public class LoginAction extends ActionSupport {
     private String password;
 
     public String execute() {
-        return DatabaseController.login(username, password) ? SUCCESS: ERROR;
+        return DatabaseController.login(username, password) ? SUCCESS : ERROR;
     }
 
     public String getUsername() {

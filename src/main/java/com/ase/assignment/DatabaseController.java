@@ -12,8 +12,8 @@ public class DatabaseController {
 
         try {
             // jdbc:mysql://localhost/<DB_NAME>, change accordingly.
-            String URL = "jdbc:mysql://localhost/ase";
-            Class.forName("com.mysql.jdbc.Driver");
+            String URL = "jdbc:mysql://localhost:3306/ase";
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
             // SQL server username and password, change accordingly.
             connection = DriverManager.getConnection(URL, "root", "12345678");
