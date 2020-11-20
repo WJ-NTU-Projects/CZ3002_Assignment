@@ -1,6 +1,4 @@
-<!DOCTYPE html PUBLIC
-"-//W3C//DTD XHTML 1.1 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <%@taglib prefix="s" uri="/struts-tags" %>
 
@@ -12,6 +10,6 @@
     </head>
 
     <body>
-        <div style="text-align: center; margin: 16px 0;">Successful login.</div>
+        <div class="center-text">Successful login.</div>
     </body>
 </html>

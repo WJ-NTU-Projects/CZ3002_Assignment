@@ -1,6 +1,4 @@
-<!DOCTYPE html PUBLIC
-"-//W3C//DTD XHTML 1.1 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <%@taglib prefix="s" uri="/struts-tags" %>
 
@@ -18,12 +16,12 @@
 
                 <div class="form-input-div">
                     Username:<br/>
-                    <s:textfield type = "text" name = "username" cssClass="form-input" />
+                    <s:textfield type = "text" name = "loginCredentials.username" cssClass="form-input" />
                 </div>
 
                 <div class="form-input-div">
                     Password:<br/>
-                    <s:textfield type = "password" name = "password" cssClass="form-input" />
+                    <s:textfield type = "password" name = "loginCredentials.password" cssClass="form-input" />
                 </div>
 
                 <div class="form-input-div">
