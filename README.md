@@ -8,6 +8,10 @@ Testing was done using the following setup:
 
 **Take note that the database configuration may need to be changed if you are not using Docker.** 
 
+## WAR Application Package
+
+**[The WAR package has been moved here (if you don't want to self-build).](https://github.com/WJ-NTU-Projects/CZ3002_Assignment/releases/tag/0)**
+
 ## Setting up 
 
 ### Tomcat 
@@ -24,7 +28,7 @@ Testing was done using the following setup:
 
 2. Make sure Tomcat is not running (kill it).
 
-3. Drop the [WAR application](https://github.com/WJ-NTU-Projects/CZ3002_Assignment/tree/master/target) (found in the 'target' folder) in `[tomcat root folder]\webapps`. 
+3. Drop the [WAR application](https://github.com/WJ-NTU-Projects/CZ3002_Assignment/releases/tag/0) (or found in the 'target' folder if you self-build) in `[tomcat root folder]\webapps`. 
 
 ### MySQL
 
