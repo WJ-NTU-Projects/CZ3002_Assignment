@@ -3,6 +3,9 @@ package com.ase.assignment;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
+/**
+ * Controller for generic database operations.
+ */
 public class DatabaseController {
     /* MySQL Server Parameters
      * ===== IMPORTANT! =====
@@ -15,6 +18,10 @@ public class DatabaseController {
     private static final String DATABASE_USERNAME = "root";
     private static final String DATABASE_PASSWORD = "12345678";
 
+    /**
+     * Obtains a connection to the remote MySQL server as defined by the parameters.
+     * @return Database connection if successful, NULL otherwise.
+     */
     public static Connection getDatabaseConnection() {
         String URL = "jdbc:mysql://" + DATABASE_HOST + ":" + DATABASE_PORT + "/" + DATABASE_SCHEMA;
 

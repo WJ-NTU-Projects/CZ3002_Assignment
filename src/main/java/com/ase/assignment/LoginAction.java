@@ -6,9 +6,20 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
+/**
+ * Action class performing login validation for a user.
+ */
 public class LoginAction extends ActionSupport {
+    /**
+     * Model object exposed to the login view to store credentials entered by the user.
+     */
     private LoginCredentials loginCredentials;
 
+    /**
+     * Method called by the login view on form submission, mapped via Struts.
+     * It contains the logic for login validation for a user.
+     * @return String result to be interpreted by the Struts framework. Returns "success" if validation is successful, "error" otherwise.
+     */
     public String execute() {
         Connection connection = DatabaseController.getDatabaseConnection();
 

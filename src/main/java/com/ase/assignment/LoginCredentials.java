@@ -1,5 +1,8 @@
 package com.ase.assignment;
 
+/**
+ * User login credentials model.
+ */
 public class LoginCredentials {
     private String username;
     private String password;

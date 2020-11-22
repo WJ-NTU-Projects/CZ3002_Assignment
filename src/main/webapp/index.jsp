@@ -10,6 +10,7 @@
     </head>
 
     <body>
+        <!-- Login form mapped to the LoginAction action class, and references the loginCredentials model object defined in the class. -->
         <div class="form-div">
             <s:form action = "login_action" method = "post" cssClass="form">
                 <s:fielderror fieldName="error-field" cssClass="form-error" />
