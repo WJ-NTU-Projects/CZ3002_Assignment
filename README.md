@@ -1,4 +1,4 @@
-# CZ3002_Assignment
+# CZ3002 Lab Assignment
 
 Application is developed in [IntelliJ IDEA](https://www.jetbrains.com/idea).
 
